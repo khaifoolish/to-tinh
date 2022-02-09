@@ -681,5 +681,20 @@ body {
     opacity: 1;
   }
 }
+@media screen and (max-width: 420px) {
+  .love-card {
+    width: 25rem;
+  }
+  .love-card .emoji-head {
+    display: none;
+  }
+  .love-card .card-heading {
+    font-size: 2rem;
+  }
+  .love-card .btn {
+    width: 10rem;
+    height: 3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

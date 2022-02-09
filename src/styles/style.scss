@@ -715,3 +715,23 @@ body {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .love-card {
+    width: 25rem;
+    // height: 50rem;
+
+    .emoji-head {
+      display: none;
+    }
+
+    .card-heading {
+      font-size: 2rem;
+    }
+
+    .btn {
+      width: 10rem;
+      height: 3rem;
+    }
+  }
+}
